@@ -1,4 +1,4 @@
-import BackGround from "@/components/Bg";
+
 
 import Subscribe from "@/components/Subscribe";
 import Testimonial from "@/components/Testimonial";
@@ -20,13 +20,13 @@ const Page = () => {
             <div className=" flex text-sm space-x-4">
               <p>Home</p>
               <p className="font-thin">&#10095;</p>
-              {/* <p className="text-buttonBorder">TestimonialList</p> */}
+              <p className="text-buttonBorder">TestimonialList</p>
             </div>
           </div>
         </div>
       </div>
 
-      <BackGround />
+      
       <section>
         <Testimonial />
       </section>
